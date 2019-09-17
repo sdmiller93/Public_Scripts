@@ -80,4 +80,4 @@ for (i in 1:nrow(de)){ # this is for the comp3 set
 	
 	
 }
-write.table(de, file = "~/Desktop/de_up_down.tsv", append = TRUE, sep = "\t", col.names = TRUE, row.names = FALSE, quote = FALSE)
+write.table(de, file = "/path/to/out.tsv", append = TRUE, sep = "\t", col.names = TRUE, row.names = FALSE, quote = FALSE)
